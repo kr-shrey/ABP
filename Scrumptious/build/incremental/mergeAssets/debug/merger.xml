@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="unspecified" >
+        <source path="E:\Data\Ghanta\ABP\Scrumptious\build\exploded-aar\ABP\facebook\unspecified\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="E:\Data\Ghanta\ABP\Scrumptious\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Data\Ghanta\ABP\Scrumptious\src\debug\assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,29 @@
+<!-- From: file:/E:/Data/Ghanta/ABP/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.abp">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity android:label="@string/app_name" android:name="com.example.abp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.abp.AppointmentActivity"/>
+        <activity android:name="com.example.abp.ProfileActivity"/>
+    	<activity android:name="com.example.abp.CampaignActivity"/>
+    	<activity android:name="com.example.abp.ScheduleActivity"/>
+    	<activity android:name="com.example.abp.WomenStoriesActivity"/>
+    	<activity android:name="com.example.abp.WriteToMamActivity"/>
+    	<activity android:name="com.example.abp.NewsActivity"/>
+    	<activity android:name="com.example.abp.TrendingActivity"/>
+    	<activity android:name="com.example.abp.TwitterActivity"/>
+    	<activity android:name="com.facebook.LoginActivity"/>
+        <activity android:name="com.example.abp.SettingsActivity"/>
+        <activity android:name="com.example.abp.ShowDescription"/>
+    </application>
+
+</manifest>
